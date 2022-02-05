@@ -33,6 +33,12 @@ body {
   color: #2d84d3;
 }
 
+#nameAppend {
+  text-align: center;
+  margin: 5%;
+  color: #c750f1;
+}
+
 .parent-container {
   display: flex;
   flex-direction: column;
