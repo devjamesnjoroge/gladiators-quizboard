@@ -124,7 +124,7 @@ label {
   padding: 1%;
   background-color: #c750f1;
   color: #ffff;
-  font-size: 1vw;
+  font-size: large;
 }
 
 .lower-footer {
@@ -139,10 +139,10 @@ label {
 }
 
 .lower-footer h6 {
-  font-size: 1.2vw;
+  font-size: large;
   font-weight: lighter;
 }
 
 .lower-footer p {
-  font-size: 1.2vw;
+  font-size: large;
 }
