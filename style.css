@@ -106,3 +106,19 @@ label {
 .radio-btns {
   margin: 2vh;
 }
+
+.upper-footer {
+  padding: 10vh;
+}
+
+.upper-footer p {
+  color: #ffff;
+  float: left;
+  margin-left: 5vw;
+}
+
+.upper-footer button {
+  float: right;
+  margin-right: 5vw;
+  padding: 1%;
+}
