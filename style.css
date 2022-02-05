@@ -16,7 +16,7 @@ body {
 }
 
 .logo-section p {
-  font-size: 5vh;
+  font-size: 3vw;
   text-transform: uppercase;
   font-weight: bold;
   color: #c750f1;
@@ -28,7 +28,7 @@ body {
 }
 
 .instructions p {
-  font-size: 3vh;
+  font-size: 2vw;
   color: #2d84d3;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .circle p {
   color: #ffff;
-  font-size: 4.5vh;
+  font-size: 2.2vw;
 }
 
 .ninety-degrees-lines {
@@ -123,7 +123,7 @@ label {
   padding: 1%;
   background-color: #c750f1;
   color: #ffff;
-  font-size: 2.5vh;
+  font-size: 1vw;
 }
 
 .lower-footer {
@@ -138,10 +138,10 @@ label {
 }
 
 .lower-footer h6 {
-  font-size: 2.5vh;
+  font-size: 1.2vw;
   font-weight: lighter;
 }
 
 .lower-footer p {
-  font-size: 2.7vh;
+  font-size: 1.2vw;
 }
