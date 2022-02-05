@@ -39,6 +39,10 @@ body {
   color: #c750f1;
 }
 
+#nameAppend span {
+  color: #2dd33e;
+}
+
 .parent-container {
   display: flex;
   flex-direction: column;
@@ -151,4 +155,18 @@ label {
 
 .lower-footer p {
   font-size: large;
+}
+
+.revealScore {
+  height: 5vh;
+  width: 100vw;
+  background-color: #ffff;
+  opacity: 0;
+}
+
+.revealScore.active {
+  height: 63vh;
+  width: 100vw;
+  background-color: #ffff;
+  opacity: 1;
 }
