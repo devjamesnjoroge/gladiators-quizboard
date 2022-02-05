@@ -32,11 +32,14 @@ body {
   color: #2d84d3;
 }
 
+.parent-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   display: flex;
-
   align-items: center;
-  padding: 7% 0;
 }
 
 .row1 {
@@ -44,6 +47,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-left: 15vw;
+  margin-bottom: 35vh;
 }
 
 .circle {
@@ -68,23 +72,37 @@ body {
 }
 
 .line-vertical {
-  width: 0.02vw;
-  height: 10vh;
+  width: 0.2vw;
+  height: 5vh;
   background-color: #ffff;
 }
 
 .line-horizontal {
   width: 20vw;
-  height: 0.02vh;
+  height: 0.1vh;
   background-color: #ffff;
 }
 
 .row2 {
   margin-left: 5vw;
   margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.row2 p {
+.question {
   color: #ffff;
-  margin-top: 18.1vh;
+  margin-top: 13.1vh;
+}
+
+label {
+  color: #ffff;
+}
+
+.answers {
+  margin-top: 5vh;
+}
+
+.radio-btns {
+  margin: 2vh;
 }
