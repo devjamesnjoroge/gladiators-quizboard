@@ -3,3 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.logo-section p {
+  font-size: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c750f1;
+}
