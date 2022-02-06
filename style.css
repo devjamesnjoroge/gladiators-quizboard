@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -169,4 +170,32 @@ label {
   width: 100vw;
   background-color: #ffff;
   opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#success {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 3vw;
+  color: #c750f1;
+}
+
+.btn2 {
+  margin-top: 10%;
+  background-color: #1d2123;
+  padding: 1em;
+  width: 15vw;
+  color: #ffff;
+  font-size: 2vw;
+  border-radius: 1em;
+  text-decoration: none;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: #ffff;
 }

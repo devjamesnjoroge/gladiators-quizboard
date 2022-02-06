@@ -33,6 +33,7 @@ if (document.getElementById("item1d").checked) {
 var hideFooter = document.querySelector(".upper-footer");
 var hideBody = document.querySelector(".classToHide");
 var hiddenClass = document.querySelector(".revealScore");
+var revealClass = document.querySelector(".active");
 var submitAnswers = document.querySelector("#submitt");
 submitAnswers.addEventListener("click", function () {
   hiddenClass.classList.toggle("active");
@@ -79,5 +80,28 @@ submitAnswers.addEventListener("click", function () {
 
   var totalPercentage = (totalScore / 12) * 100;
 
-  alert(totalPercentage);
+  var roundedAnswer = Math.round(totalPercentage);
+
+  switch (roundedAnswer) {
+    case 100:
+    case 83:
+      document
+        .querySelector("#success")
+        .append(
+          "Congratulations you scored " +
+            roundedAnswer +
+            "%. Excellently performed."
+        );
+      break;
+    case 67:
+    case 50:
+      document
+        .querySelector("#success")
+        .append("You scored " + roundedAnswer + "%. Fairly performed.");
+      break;
+    default:
+      document
+        .querySelector("#success")
+        .append("You scored " + roundedAnswer + "%. You should redo the quiz.");
+  }
 });
