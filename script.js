@@ -68,5 +68,16 @@ submitAnswers.addEventListener("click", function () {
   } else {
     scoreArray.push(0);
   }
-  sumArray = 
+
+  var totalScore =
+    scoreArray[0] +
+    scoreArray[1] +
+    scoreArray[2] +
+    scoreArray[3] +
+    scoreArray[4] +
+    scoreArray[5];
+
+  var totalPercentage = (totalScore / 12) * 100;
+
+  alert(totalPercentage);
 });
